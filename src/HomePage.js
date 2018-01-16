@@ -4,8 +4,8 @@ class HomePage extends Component {
   render() {
     return (
       <div>
-        <div id='backgroundImage'>
-
+        <div className='backgroundImage'>
+          {/* hello world */}
         </div>
       </div>
     );
