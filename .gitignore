@@ -19,3 +19,9 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+yarn.lock
+
+public/.sass-cache/*
+public/.sass-cache
+public/css/styles.css.map

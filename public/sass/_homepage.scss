@@ -1,8 +1,9 @@
 
 $text-color: white;
+$intro-font: 30px;
 
 body{
-  background-image: url("../images/backgroundPhoto.jpg");
+  background-image: url("../images/backgroundPhoto1.jpg");
   background-repeat:no-repeat;
   background-size:cover;
   height: 100vh;
@@ -19,6 +20,9 @@ body{
       .bottomDescription{
         color: $text-color;
       }
+    }
+    .firstIntro{
+      margin-top: 150px;
     }
   }
 }
