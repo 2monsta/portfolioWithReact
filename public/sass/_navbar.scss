@@ -1,5 +1,8 @@
 
 $navbar-font: 30px;
+$default-color: #000;
+$hover-color: #337ab7;
+
 
 .navbar-default{
   border-width: 0px;
@@ -13,13 +16,19 @@ $navbar-font: 30px;
 
 .container-fluid{
   .name{
-    color: white;
+    color: $default-color;
     font-size: $navbar-font;
   }
   ul{
-    color: white;
+    color: $default-color;
     list-style: none;
-    float: right;
+		float: right;
+		a{
+			color: $default-color;
+		}
+		a:hover{
+			color: $hover-color;
+		}
     li{
       margin: 20px;
       display: inline-block;
