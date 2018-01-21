@@ -44,5 +44,7 @@ video {
 
 .videoContent {
   margin-top: 100px; }
+  .videoContent .todo {
+    color: #26537A; }
 
 /*# sourceMappingURL=styles.css.map */
