@@ -25,3 +25,7 @@ yarn.lock
 public/.sass-cache/*
 public/.sass-cache
 public/css/styles.css.map
+
+*.mov
+
+*.mp4

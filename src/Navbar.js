@@ -8,9 +8,9 @@ class Navbar extends Component {
         <div className="container-fluid">
           <div className="text-left">
             <span className='name'>Jason</span>
-            <ul>
+            <ul className='hidden-xs'>
               <Link to='/'><li>Home</li></Link>
-              <li>Projects</li>
+              <Link to='/projects'><li>Projects</li></Link>
               <li>Skills</li>
               <li>Contact</li>
             </ul>

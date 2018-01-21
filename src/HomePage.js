@@ -12,7 +12,7 @@ class HomePage extends Component {
             <h2 className="topDescription">Hi! I'm glad you found me.</h2>
           </div>
           <div className='col-sm-offset-3 col-sm-6'>
-            <h4 className="bottomDescription">I'm Jason - a web developer & prgrammer living in metro Atlanta. I'm proficient with node.js and react.js but is willing to learn other technologies.</h4>
+            <h4 className="bottomDescription">I'm Jason - a web developer & prgrammer living in metro Atlanta. I'm proficient with node.js and react.js but is willing to learn other technologies/frameworks.</h4>
           </div>
         </div>
       </div>
