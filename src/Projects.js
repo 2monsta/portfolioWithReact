@@ -8,6 +8,9 @@ class Projects extends Component {
 		return (
 			<div>
 				<div className='row videoContent'>
+					<div className='pageInfo'>
+						<h1>Projects</h1>
+					</div>
 					{/* mgntze */}
 					<div className='col-xs-12 col-sm-4'>
 						<span className='overlay'>
@@ -34,7 +37,7 @@ class Projects extends Component {
 				<div className='row'>
 					<div className='col-xs-12 col-sm-4'>
 						<span className='overlay'>
-						<h3 className='todo'>ToDo | <a href="https://github.com/2monsta/react-express-todo">Github</a></h3>
+						<h3><span className='todo'>ToDo</span> | <a href="https://github.com/2monsta/react-express-todo">Github</a></h3>
 						</span>
 						<video src="video/ToDo.mov" autoPlay='true' loop='true'></video>
 					</div>

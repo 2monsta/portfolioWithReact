@@ -15,6 +15,22 @@ class HomePage extends Component {
             <h4 className="bottomDescription">I'm Jason - a web developer & prgrammer living in metro Atlanta. I'm proficient with node.js and react.js but is willing to learn other technologies/frameworks.</h4>
           </div>
         </div>
+
+				{/* can change this to a database later */}
+				<div className='row linkButtons'>
+					<div className='col-xs-12 col-sm-3'>
+						<button className='btn btn-primary btn-lg'>Linkedin</button>
+					</div>
+					<div className='col-xs-12 col-sm-3'>
+						<button className='btn btn-primary btn-lg'>Github</button>
+					</div>
+					<div className='col-xs-12 col-sm-3'>
+						<button className='btn btn-primary btn-lg'>Resume</button>
+					</div>
+					<div className='col-xs-12 col-sm-3'>
+						<button className='btn btn-primary btn-lg'>Resume</button>
+					</div>
+				</div>
       </div>
     );
   }

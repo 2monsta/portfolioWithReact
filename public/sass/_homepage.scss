@@ -19,10 +19,31 @@ body{
       }
       .bottomDescription{
         color: $text-color;
-      }
+			}
+			.linkButtons{
+				margin-top: 50px;
+				button{
+					width: 100%;
+				}
+			}
     }
     .firstIntro{
       margin-top: 150px;
     }
   }
+}
+
+@media screen and (max-width: 600px) {
+	body{
+		.container{
+			.row{
+				.linkButtons{
+					margin: 10px;
+					button{
+						margin: 10px;
+					}
+				}
+			}
+		}
+	}
 }
