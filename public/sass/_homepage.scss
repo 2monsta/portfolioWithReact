@@ -5,9 +5,9 @@ $intro-font: 30px;
 body{
   background-image: url("../images/backgroundPhoto2.jpg");
   background-repeat:no-repeat;
-  background-size:contain;
+  background-size:cover;
   height: 100vh;
-  width: 100;
+  width: 100%;
   .container{
     .row{
       .myName{
