@@ -19,13 +19,13 @@ class HomePage extends Component {
 				{/* can change this to a database later */}
 				<div className='row linkButtons'>
 					<div className='col-xs-12 col-sm-3'>
-						<button className='btn btn-primary btn-lg'>Linkedin</button>
+						<button className='btn btn-primary btn-lg'><i class="fa fa-linkedin-square" aria-hidden="true"></i> Linkedin</button>
 					</div>
 					<div className='col-xs-12 col-sm-3'>
-						<button className='btn btn-primary btn-lg'>Github</button>
+						<button className='btn btn-primary btn-lg'><i class="fa fa-github" aria-hidden="true"></i> Github</button>
 					</div>
 					<div className='col-xs-12 col-sm-3'>
-						<button className='btn btn-primary btn-lg'>Resume</button>
+						<button className='btn btn-primary btn-lg'><i class="fa fa-paperclip" aria-hidden="true"></i> Resume</button>
 					</div>
 					<div className='col-xs-12 col-sm-3'>
 						<button className='btn btn-primary btn-lg'>Resume</button>
