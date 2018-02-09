@@ -1,13 +1,13 @@
 
-$text-color: white;
+$text-color: #000;
 $intro-font: 30px;
 
 body{
-  background-image: url("../images/backgroundPhoto1.jpg");
+  background-image: url("../images/backgroundPhoto2.jpg");
   background-repeat:no-repeat;
   background-size:cover;
   height: 100vh;
-  width: 100;
+  width: 100%;
   .container{
     .row{
       .myName{
@@ -19,10 +19,31 @@ body{
       }
       .bottomDescription{
         color: $text-color;
-      }
+			}
+			.linkButtons{
+				margin-top: 50px;
+				button{
+					width: 100%;
+				}
+			}
     }
     .firstIntro{
       margin-top: 150px;
     }
   }
+}
+
+@media screen and (max-width: 600px) {
+	body{
+		.container{
+			.row{
+				.linkButtons{
+					margin: 10px;
+					button{
+						margin: 10px;
+					}
+				}
+			}
+		}
+	}
 }

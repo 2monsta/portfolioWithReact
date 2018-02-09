@@ -7,12 +7,12 @@ class Navbar extends Component {
       <nav className="navbar navbar-default navbar-fixed-top">
         <div className="container-fluid">
           <div className="text-left">
-            <span className='name'>Jason</span>
-            <ul>
+            <Link to='/'><span className='name'>Jason</span></Link>
+            <ul className='hidden-xs'>
               <Link to='/'><li>Home</li></Link>
-              <li>Projects</li>
+              <Link to='/projects'><li>Projects</li></Link>
               <li>Skills</li>
-              <li>Contact</li>
+              <li>Resume/Contact</li>
             </ul>
           </div>
         </div>
